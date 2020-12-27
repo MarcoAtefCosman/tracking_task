@@ -7,8 +7,8 @@ I provide a colab environmet shows the solution steps, But if you want to run it
 
 
 
-### Pip
-(TensorFlow 2 packages require a pip version >19.0.)
+### Requirments
+
 ```bash
 # TensorFlow GPU
 pip install -r requirements-gpu.txt
@@ -61,6 +61,8 @@ Currently I prepare a report to discuss them in organized way but let me share s
 -YOLO is trained for 80 objects as I mentioned before, But unfortunately  auto rickshaw (toktok) isn't one of them so the detection for it was some times truck another times car and so on, it's just an example about what I want to say: during the system deployment we always need to collect more data acoording to our scene to enhance our model performance (make our custome dataset)
 
 -The scene itself is somehow complicated to implement many ideas to it, for example lane detection which can make direction detection easier! so as mentioned before it need to has it's own data set according to it's unique conditions.
+
+-Hardware problems for this type of tracking videos for long time will ofcourse appear for long time videos or live tracking,we need to optimize our solution use a weights file related to our objects only and use techniques to reduce the frames rate without having effect on the detection and tracking. 
 
 ### References  
 
