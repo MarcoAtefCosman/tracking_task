@@ -27,7 +27,7 @@ Note:Copy and paste yolov4.weights from your downloads folder into the 'data' fo
 python save_model.py --model yolov4 
 
 # Run yolov4 deep sort object tracker on video
-python object_tracker.py --video ./data/video/test.mp4 --output ./outputs/demo.avi --model yolov4
+python object_tracker.py --video ./data/video/test.mp4 --output ./outputs/tracker.avi --model yolov4
 
 ```
 
